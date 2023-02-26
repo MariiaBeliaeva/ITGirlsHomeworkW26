@@ -1,10 +1,10 @@
 import React from "react";
-import HeroCard from "./components/HeroCard";
+import HeroCard from "../HeroCard/HeroCard.jsx";
 
 function Main(props) {
   return (
     <main>
-      <HeroCard props />
+      <HeroCard />
     </main>
   );
 }
